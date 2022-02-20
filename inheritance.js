@@ -1,7 +1,6 @@
 class TeamMember {
     name;
-    designation = 'Support Web Dev';
-    address     = 'BD';
+    address = 'BD';
     constructor(name, address){
         this.name    = name;
         this.address = address;
@@ -10,6 +9,7 @@ class TeamMember {
 
 class Support extends TeamMember {
     groupSupportTime;
+    designation = 'Support Web Dev';
     constructor(name, address, time){
         super(name, address);
         this.groupSupportTime = time;
@@ -22,6 +22,7 @@ class Support extends TeamMember {
 
 
 class StudentCare extends TeamMember {
+    designation = 'Care Web Dev';
     buildRoutine(student){
         console.log(this.name, 'Build a routine for', student);
     }
@@ -29,6 +30,7 @@ class StudentCare extends TeamMember {
 
 class NeptuneDev extends TeamMember {
     codeEditor;
+    designation = 'Neptune App Dev';
     constructor(name, address, editor){
         super(name, address);
         this.codeEditor = editor;
@@ -49,4 +51,4 @@ const alia    = new StudentCare('Alia Bhatt', 'Mumbai');
  
 const ash     = new NeptuneDev('Ash', 'Malaysia', 'Android Studio');
 ash.releaseApp('1.4.5');
-console.log(ash);
+// console.log(ash);
