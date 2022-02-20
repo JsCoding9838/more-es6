@@ -7,7 +7,7 @@ const products = [
     {
         name: 'water bottle',
         price: 50,
-        color: 'yellow',
+        color: 'yellow'
     },
     {
         name: 'mobile phone',
