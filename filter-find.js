@@ -45,3 +45,6 @@ const blacks    = products.filter(product => product.color == 'pink');
 // find is return only which is match first time
 const whiteItem = products.find(product => product.color === 'black');
 // console.log(whiteItem);
+
+
+const friends = ["Moushumi", "Misha", "Manna", "mimi" , "mahiya"];
