@@ -5,7 +5,7 @@ const fish = {id: 58, name: 'King Hilsha', price: 900, phone: '01717555555', add
 // const dress = fish.dress;
 // const id    = fish.id;
 
-const {phone, price, dress, id} = fish;
+// const {phone, price, dress, id} = fish;
 
 // console.log(phone, price);
 // console.log(phone, id);
@@ -32,10 +32,10 @@ const company = {
     }
 }
 
-// const work      = company.web.work;
-// const framework = company.web.framework;
+const work              = company.web.work;
+const framework         = company.web.framework;
 const {work, framework} = company.web;
 const {food}            = company.ceo;
 const {second, third}   = company.web.tech;
 
-console.log(work, framework, food, second, third);
+// console.log(work, framework, food, second, third);

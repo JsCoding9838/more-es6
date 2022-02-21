@@ -38,4 +38,4 @@ const productPrices = products.map(product => product.price);
 // console.log(productNames, productPrices);
 
 /* forEach dosen't return */
-products.forEach(product => console.log(product));
+// products.forEach(product => console.log(product));
